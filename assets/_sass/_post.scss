@@ -9,10 +9,12 @@
     }
     
     p {
-        margin-right: $base-margin;
         & + p {
             margin-top: -1 * $base-margin;
             text-indent: 2em;
+        }
+        @media all and (min-width: $small-breakpoint) {
+            margin-right: $base-margin;
         }
     }
 
