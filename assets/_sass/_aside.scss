@@ -1,0 +1,33 @@
+.about {
+    overflow-y: scroll;
+    max-width: 100%;
+    font-family: $font-sans-serif;
+    font-size: $font-size-small;
+    line-height: $line-height;
+    color: $color-accent-dark;
+    background: $color-accent-light;
+    .portrait {
+        box-sizing: border-box;
+        display: block;
+        max-width: 125px;
+        height: auto;     
+        padding: 0 $base-margin;
+        opacity: 0.9;
+        @media all and (min-width: $small-breakpoint) {
+            padding: 0;
+            max-width: 100%;
+        }
+    }
+    .biography {
+        padding: $base-padding;
+        h1, p { margin-bottom: 1em; }
+        h1 { font-size: 1.5em; }
+        p:last-child { margin-bottom: 0; }
+        a {
+            color: $color-accent-dark;
+            &:hover {
+                color: $color-black;
+            }
+        }
+    }
+}

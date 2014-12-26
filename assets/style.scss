@@ -1,0 +1,50 @@
+---
+---
+
+/* -----------------
+This stylesheet is designed for mobile first,
+with media queries that adjust layout for larger sizes.
+Originally written as SASS, then compiled to CSS.
+This stylesheet is liscensed CC-BY-SA.
+----------------- */
+
+@import 'reset';
+
+  ///////////////////////
+ // V A R I A B L E S // 
+///////////////////////
+
+// Breakpoints
+
+$small-breakpoint: 700px;
+
+// Color
+
+$color-black: #0C306D;
+$color-grey: #6F83A5;
+$color-white: #FCFDFF;
+$color-accent-light: #C5DAFD;
+$color-accent-dark: #1B6BEF;
+
+// Typography
+
+$font-serif: "PT Serif", serif;
+$font-sans-serif: "Chivo", sans-serif;
+$font-size-small: 16px;
+$font-size-large: 20px;
+$line-height: 1.5em;
+
+// Spacing
+
+$base-spacing: $line-height;
+$base-margin: $base-spacing;
+$base-padding: $base-spacing;
+$max-width-large: 26em;
+
+  ///////////////////
+ // I M P O R T S //
+///////////////////
+
+@import 'base';
+@import 'post';
+@import 'aside';

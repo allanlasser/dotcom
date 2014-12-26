@@ -1,0 +1,37 @@
+.post {
+    max-width: 40em;
+    margin: 0 auto;
+    padding: $base-padding $base-padding 0 $base-padding;
+    @media all and (min-width: $small-breakpoint) {
+        padding-top: 3*$base-padding;
+        font-size: $font-size-large;
+        line-height: $line-height;
+    }
+    
+    p {
+        margin-right: $base-margin;
+        & + p {
+            margin-top: -1 * $base-margin;
+            text-indent: 2em;
+        }
+    }
+
+    & > * { margin-bottom: $base-margin; }
+
+    .title, .date {
+        font-family: $font-sans-serif;
+    }
+    .title {
+        margin-bottom: 1em;
+        font-size: $line-height;
+        line-height: $line-height;
+    }
+    .date {
+        display: block;
+        margin-bottom: 0;
+        font-size: 0.6875em;
+        line-height: 1em;
+        color: $color-grey;
+        text-decoration: none;
+    }
+}

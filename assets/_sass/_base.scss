@@ -1,0 +1,68 @@
+* {
+    box-sizing: border-box;
+}
+
+html, body {
+    font-family: $font-serif;
+    font-size: $font-size-small;
+    line-height: $line-height;
+    color: $color-black;
+    background: $color-white;
+}
+
+.navigation {
+    display: block;
+    width: 100%;
+    background: $color-accent-light;
+    font-family: $font-sans-serif;
+    font-size: 1em;
+    text-align: left;
+    
+    a {
+        display: block;
+        padding: $base-padding/2 $base-padding;
+        text-decoration: none;
+    }
+}
+
+a {
+    color: $color-accent-dark;
+    &:hover {
+        color: $color-black;
+    }
+}
+
+@media all and (min-width: $small-breakpoint) {
+    .navigation {
+        display: none;
+    }
+    html, body {
+        display: table;
+        width: 100%;
+    }
+    .container {
+        display: table-cell;
+        width: 70%;
+    }
+    .about {
+        display: table-cell;
+        width: 30%;
+        height: 100vh;
+    }
+}
+@media all and (min-width: $small-breakpoint + 100px) {
+    .container { width: 72.5%; }
+    .about { width: 27.5%; }
+}
+@media all and (min-width: $small-breakpoint + 200px) {
+    .container { width: 75%; }
+    .about { width: 25%; }
+}
+@media all and (min-width: $small-breakpoint + 300px) {
+    .container { width: 77.5%; }
+    .about { width: 22.5%; }
+}
+@media all and (min-width: $small-breakpoint + 400px) {
+    .container { width: 80%; }
+    .about { width: 20%; }
+}

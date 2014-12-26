@@ -1,0 +1,13 @@
+---
+title: Weblog
+---
+{% include header.html %}
+    {% for post in site.posts %}
+    <article class="homepage post">
+        <a class="date permalink" href="{{ site.url }}{{ post.url }}" title="{{ post.title }}">{{ post.date | date_to_long_string }}</a>
+        <h1 class="title">{{ post.title }}</h1>
+        {{ post.content }}
+    </article>
+    {% endfor %}
+</div>
+{% include footer.html %}
