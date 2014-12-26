@@ -42,10 +42,12 @@ a {
     }
     .container {
         display: table-cell;
+        vertical-align: top;
         width: 70%;
     }
     .about {
         display: table-cell;
+        vertical-align: top;
         width: 30%;
         height: 100vh;
     }
