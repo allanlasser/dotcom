@@ -32,6 +32,10 @@ a {
     }
 }
 
+ul.no-style, ol.no-style {
+    list-style-type: none;
+}
+
 @media all and (min-width: $small-breakpoint) {
     .navigation {
         display: none;

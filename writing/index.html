@@ -1,0 +1,13 @@
+---
+title: Writing Archive
+---
+{% include header.html %}
+    <ul class="no-style">
+    {% for post in site.posts %}
+        <li class="post">
+        <div class="date">{{ post.date | date_to_long_string }}</div>
+        <div class="title"><a class="permalink" href="{{ site.url }}{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></div>
+    </li>
+    {% endfor %}
+</div>
+{% include footer.html %}

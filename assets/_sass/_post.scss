@@ -22,8 +22,13 @@
         max-width: 100%;
         margin-top: $base-margin
     }
+    
+    ul, ol {
+        padding-left: $base-padding;
+    }
 
     & > * { margin-bottom: $base-margin; }
+    li { margin-bottom: $base-margin; }
 
     .title, .date {
         font-family: $font-sans-serif;
@@ -39,6 +44,8 @@
         font-size: 0.6875em;
         line-height: 1em;
         color: $color-grey;
-        text-decoration: none;
     }
+    .permalink { text-decoration: none; }
 }
+
+li.post + li.post { padding-top: 0; }
