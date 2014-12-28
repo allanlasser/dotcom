@@ -32,6 +32,13 @@ a {
     }
 }
 
+em { font-style: italic; }
+strong { text-transform: uppercase; }
+blockquote {
+    border-left: 1px solid $color-grey;
+    padding-left: $base-padding;
+}
+
 ul.no-style, ol.no-style {
     list-style-type: none;
 }

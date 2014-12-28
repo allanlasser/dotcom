@@ -5,14 +5,10 @@
     @media all and (min-width: $small-breakpoint) {
         font-size: $font-size-large;
         line-height: $line-height;
-        &:first-child { padding-top: 3*$base-padding; }
+        &:first-child { padding-top: 20vh; }
     }
     
     p {
-        & + p {
-            margin-top: -1 * $base-margin;
-            text-indent: 2em;
-        }
         @media all and (min-width: $small-breakpoint) {
             margin-right: $base-margin;
         }
