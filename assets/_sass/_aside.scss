@@ -12,7 +12,11 @@
         max-width: 125px;
         height: auto;     
         padding: 0 $base-margin;
-        opacity: 0.9;
+        opacity: .8;
+        transition: opacity .15s linear 0;
+        &:hover {
+            opacity: .9;
+        }
         @media all and (min-width: $small-breakpoint) {
             padding: 0;
             max-width: 100%;
@@ -31,6 +35,10 @@
         }
         .index-link {
             text-decoration: none;
+        }
+        &.fixed {
+            position: fixed;
+            top: 0;
         }
     }
 }

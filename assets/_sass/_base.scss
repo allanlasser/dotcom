@@ -30,6 +30,7 @@ a {
     &:hover {
         color: $color-black;
     }
+    transition: color .15s linear 0;
 }
 
 em { font-style: italic; }

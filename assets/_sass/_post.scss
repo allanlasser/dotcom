@@ -6,6 +6,7 @@
         font-size: $font-size-large;
         line-height: $line-height;
         &:first-child { padding-top: 20vh; }
+        &:last-child { padding-bottom: 20vh; }
     }
     
     p {
