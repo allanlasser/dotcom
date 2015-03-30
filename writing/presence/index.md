@@ -65,6 +65,7 @@ This distance is effectually similar to the one between players and characters i
 
 With the advent of presence, Facebook can narrow this distance.
 In his [letter announcing Facebook’s acquisition of Oculus](https://www.facebook.com/zuck/posts/10101319050523971), Mark Zuckerberg wrote:
+
 > This is really a new communication platform. By feeling truly present, you can share unbounded spaces and experiences with the people in your life. Imagine sharing not just moments with your friends online, but entire experiences and adventures.
 
 Presence allows Facebook and the rest of the social web to move beyond facilitating and enabling communication.
