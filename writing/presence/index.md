@@ -34,7 +34,7 @@ Still, controllers are only half the story: the player's distance from the game'
 Virtual reality has always promised to shorten the distance between players and games by naturalizing output.
 Technically, VR helmets sense their own orientation in space and control the view with their own software, the result being an in-game camera that looks where you're looking.
 Essentially, VR tricks your brain into thinking that everything you're seeing is actually in front of you.
-So far, VR has underwhelmed because [it's hard to trick somebody's brain like this without making them want to throw up](https://en.m.wikipedia.org/wiki/).
+So far, VR has underwhelmed because [it's hard to trick somebody's brain like this without making them want to throw up](https://en.m.wikipedia.org/wiki/motion_sickness).
 There's other problems besides motion sickness, including hardware that is either too heavy and uncomfortable or too expensive.
 
 <figure>
