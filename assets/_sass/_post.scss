@@ -29,9 +29,13 @@
 
     figure {
       margin-left: 0;
+      img {
+        margin: 0;
+      }
       figcaption {
         font-family: $font-sans-serif;
         font-size: $font-size-small;
+        line-height: $line-height;
         color: $color-grey;
       }
     }
