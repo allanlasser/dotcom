@@ -8,24 +8,33 @@
         &:first-child { padding-top: 20vh; }
         &:last-child { padding-bottom: 20vh; }
     }
-    
+
     p {
         @media all and (min-width: $small-breakpoint) {
             margin-right: $base-margin;
         }
     }
-    
+
     img {
         max-width: 100%;
         margin-top: $base-margin
     }
-    
+
     ul, ol {
         padding-left: $base-padding;
     }
 
     & > * { margin-bottom: $base-margin; }
     li { margin-bottom: $base-margin; }
+
+    figure {
+      margin-left: 0;
+      figcaption {
+        font-family: $font-sans-serif;
+        font-size: $font-size-small;
+        color: $color-grey;
+      }
+    }
 
     .title, .date {
         font-family: $font-sans-serif;
