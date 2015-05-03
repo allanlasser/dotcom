@@ -34,7 +34,7 @@ Still, controllers are only half the story: the player's distance from the game'
 Virtual reality has always promised to shorten the distance between players and games by naturalizing output.
 Technically, VR helmets sense their own orientation in space and control the view with their own software, the result being an in-game camera that looks where you're looking.
 Essentially, VR tricks your brain into thinking that everything you're seeing is actually in front of you.
-So far, VR has underwhelmed because [it's hard to trick somebody's brain like this without making them want to throw up](https://en.m.wikipedia.org/wiki/).
+So far, VR has underwhelmed because [it's hard to trick somebody's brain like this without making them want to throw up](https://en.m.wikipedia.org/wiki/motion_sickness).
 There's other problems besides motion sickness, including hardware that is either too heavy and uncomfortable or too expensive.
 
 <figure>
@@ -65,6 +65,7 @@ This distance is effectually similar to the one between players and characters i
 
 With the advent of presence, Facebook can narrow this distance.
 In his [letter announcing Facebook’s acquisition of Oculus](https://www.facebook.com/zuck/posts/10101319050523971), Mark Zuckerberg wrote:
+
 > This is really a new communication platform. By feeling truly present, you can share unbounded spaces and experiences with the people in your life. Imagine sharing not just moments with your friends online, but entire experiences and adventures.
 
 Presence allows Facebook and the rest of the social web to move beyond facilitating and enabling communication.
