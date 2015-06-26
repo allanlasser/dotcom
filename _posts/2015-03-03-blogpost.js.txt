@@ -1,9 +1,0 @@
----
-title: blogpost.js
-layout: writing
-category: blog
-tags: web programming
----
-I was just playing around with THE HOTTEST JAVASCRIPT FRAMEWORK the other day.
-I'm actually pretty impressed!
-I've found MY MISINFORMED SOLUTION TO A PROBLEM I DON'T UNDERSTAND to be pretty elegant.
