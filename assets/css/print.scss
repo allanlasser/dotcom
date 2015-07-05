@@ -16,13 +16,11 @@ $small-breakpoint: 700px;
 $color-black: #000000;
 $color-grey: #666666;
 $color-white: #FFFFFF;
-$color-accent-light: #666666;
-$color-accent-dark: #FFFFFF;
+$color-accent: $color-black;
 
 // Typography
 
-$font-serif: "PT Serif", serif;
-$font-sans-serif: "Chivo", sans-serif;
+$font-serif: "Merriweather", serif;
 $font-size-small: 9pt;
 $font-size-medium: 12pt;
 $font-size-large: 16pt;
@@ -76,7 +74,7 @@ a {
                 content: "";
             }
             h1 {
-                font-family: $font-sans-serif;
+                font-family: $font-serif;
                 font-size: $line-height;
                 margin-bottom: $line-height/2;
             }

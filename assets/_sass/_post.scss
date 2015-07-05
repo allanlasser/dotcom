@@ -17,7 +17,6 @@
 
     img {
         max-width: 100%;
-        margin-top: $base-margin
     }
 
     ul, ol {
@@ -33,7 +32,7 @@
         margin: 0;
       }
       figcaption {
-        font-family: $font-sans-serif;
+        font-family: $font-serif;
         font-size: $font-size-small;
         line-height: $line-height;
         color: $color-grey;
@@ -41,17 +40,18 @@
     }
 
     .title, .date {
-        font-family: $font-sans-serif;
+        font-family: $font-serif;
     }
     .title {
+        display: inline-block;
         margin-bottom: 1em;
-        font-size: $line-height;
+        font-size: 1.5 * $font-size-large;
         line-height: $line-height;
     }
     .date {
         display: block;
         margin-bottom: 0;
-        font-size: 0.6875em;
+        font-size: $font-size-medium;
         line-height: 1em;
         color: $color-grey;
     }
