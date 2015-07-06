@@ -55,3 +55,12 @@
 }
 
 li.post + li.post { padding-top: 0; }
+
+.dialog {
+    .call:before, .response:before {
+        content: "— ";
+    }
+    .call {
+        font-style: italic;
+    }
+}
