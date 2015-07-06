@@ -32,7 +32,6 @@
         margin: 0;
       }
       figcaption {
-        font-family: $font-serif;
         font-size: $font-size-small;
         line-height: $line-height;
         color: $color-grey;
@@ -40,19 +39,16 @@
     }
 
     .title, .date {
-        font-family: $font-serif;
+        display: inline-block;
     }
     .title {
-        display: inline-block;
         margin-bottom: 1em;
-        font-size: 1.5 * $font-size-large;
-        line-height: $line-height;
+        font-size: $font-size-large;
     }
     .date {
         display: block;
-        margin-bottom: 0;
-        font-size: $font-size-medium;
-        line-height: 1em;
+        margin-bottom: .5em;
+        font-size: $font-size-small;
         color: $color-grey;
     }
     .permalink { text-decoration: none; }
