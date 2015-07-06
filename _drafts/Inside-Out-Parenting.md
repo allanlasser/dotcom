@@ -14,4 +14,4 @@ I am not a parent but some people are and [they like to watch the same movies I 
 * Emotions going to work
 * Silicon Valley jokes
 
-<a href="https://www.flickr.com/photos/alasser/19266924220" title="Kiki on Flickr"><img src="https://c1.staticflickr.com/1/551/19266924220_8849f7d524_z.jpg" width="640" height="349" alt="Kiki"></a>
+![Kiki's Delivery Service]({{ site.images }}/kiki.jpg)
