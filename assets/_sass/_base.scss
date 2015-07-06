@@ -20,6 +20,7 @@ html, body {
         color: $color-white;
         text-align: left;
         text-decoration: none;
+        transition: all 1s ease;
         &:hover {
             color: $color-white;
             background-color: $color-accent;
