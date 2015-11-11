@@ -1,21 +1,3 @@
-Computers are moving into the background.
-They're becoming less obvious.
-However, the ways we interface with computers isn't advancing at the same pace.
-That is to say, the interfaces we're using are from a time when we turned computers off.
-Now they're on all the time, in our pockets, on our wrists, inside our toasters.
-But it isn't all our toaster's fault.
-Our ability to cope with the computer's increasing omnipresence isn't adapting as fast as computers are.
-It's a race against time, and we're at a handicap.
-
-Notifications are an example of this.
-They are a new way for computers to talk to us.
-Unfortunately, they're limited by old vocabularies.
-From this limitation, notifications collect inside inboxes and are given unread counts.
-Notifications do not belong in an inbox.
-Notifications should not have an unread count.
-They're too unimportant on their own and too <numerous> to be shown all at once.
-
-On the other hand, they're not going away.
 Notifications are convenient.
 They are also annoying.
 Like a bad first date, our dumb software doesn’t recognize when it is considerate or obnoxious.
@@ -23,6 +5,11 @@ This is forgivable.
 After all, this is a new interface.
 It hasn't yet found its right shape.
 In the meantime, there's a few simple tweaks that lends these things a lighter weight and a smaller footprint.
+
+1. No Badges
+2. No Noises
+3. Collect them in one place
+4. Use respectful software
 
 # No Badges
 
@@ -54,14 +41,20 @@ Only when their absence becomes <noticable> should they be invited back.
 
 Another problem with notifications is they let us know when they arrive.
 It's distracting and obnoxious.
-This problem is exacerbated at night, when we're trying to relax ourselves into sleep.
+Why do we let _other people_ decide when they can interrupt us?
+We don't appreciate when we're interrupted while in the middle of a complex thought, yet we give _others_ the permission to do this on a daily basis.
+We should be in control!
+It's our thoughts, and our computers!
+These machines are supposed to be a bicycle for our minds, but the software they run is jamming sticks into the spokes.
 
-#
+This problem is exacerbated at night, when we're trying to relax ourselves into sleep.
+Like a leaky faucet, notifications Ping and Drip and Bleeop and vibrate.
+
+# Let them float on by
 
 Badges are opaque, and this is a problem.
 Badges tell us there's something we don't know.
 We don't know if what we don't know is important until we check it.
-That means opening the program and becoming distracted, all in the service of removing the badge.
 
 Noises are distracting, and this is a problem.
 Notifications announce their presence.
@@ -69,4 +62,53 @@ We don't know if they're important until we check them.
 That means making us anxious and alert.
 
 A simpler way is to just let the notifications collect.
-Let them pile up!
+Let them pile up, to pool and make puddles of data.
+Allow these small messages pool in a central place.
+Let them be a primary interface for staying informed.
+Luckily, we already have a place for them to go.
+Swipe down from the top of your screen and you'll see it.
+Everything, neatly organized by when it was received.
+
+But, don't try to clear the list!
+Don't try to Mark All as Read.
+There's no read or unread.
+Treat the list as an immutable artifact.
+Let the notifications flow through, let the list become a stream.
+They'll clear themselves eventually.
+It's fine, really.
+Do we really need to check, respond, or act on every single notification?
+Of course not.
+The whole point is that they can present information in an encapsulated way.
+Just peeking at the surface of the stream tells us what's new.
+There's no need to dive in.
+
+# Pay money for software
+
+Free applications and games abuse notifications.
+They need to capture our attention to stay solvent.
+And what better way to capture attention then with a notification?
+It's disrespectful and abusive and rude.
+But, we all let them get away with it.
+After all, it was free*.
+
+# Call to Action
+
+Computers are moving into the background.
+They're becoming less obvious.
+However, the ways we interface with computers isn't advancing at the same pace.
+That is to say, the interfaces we're using are from a time when we turned computers off.
+Now they're on all the time, in our pockets, on our wrists, inside our toasters.
+But it isn't all our toaster's fault.
+Our ability to cope with the computer's increasing omnipresence isn't adapting as fast as computers are.
+It's a race against time, and we're at a handicap.
+
+Notifications are an example of this.
+They are a new way for computers to talk to us.
+Unfortunately, they're limited by old vocabularies.
+From this limitation, notifications collect inside inboxes and are given unread counts.
+Notifications do not belong in an inbox.
+Notifications should not have an unread count.
+They're too unimportant on their own and too <numerous> to be shown all at once.
+On the other hand, they're not going away.
+Until we can deal with them in a more comprehensive and context-appropriate way, we just have to make them work as best we can.
+Hopefully this will let us get some work done as well.
