@@ -2,11 +2,17 @@
     max-width: 40em;
     margin: 0 auto;
     padding: $base-padding $base-padding 0 $base-padding;
+
     @media all and (min-width: $small-breakpoint) {
-        font-size: $font-size-large;
+        font-size: $font-size-medium;
         line-height: $line-height;
         &:first-child { padding-top: 20vh; }
         &:last-child { padding-bottom: 20vh; }
+    }
+
+    h1 {
+        margin-bottom: 2em;
+        font-size: $font-size-large;
     }
 
     p {
@@ -39,19 +45,13 @@
       }
     }
 
-    .title, .date {
-        display: inline-block;
-    }
-    .title {
-        margin-bottom: 1em;
-        font-size: $font-size-large;
-    }
     .date {
         display: block;
         margin-bottom: .5em;
         font-size: $font-size-small;
         color: $color-grey;
     }
+
     .permalink { text-decoration: none; }
 }
 

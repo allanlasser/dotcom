@@ -39,10 +39,10 @@ a {
 em { font-style: italic; }
 strong { text-transform: uppercase; }
 blockquote {
-    color: $color-grey;
-    border-left: 1px solid $color-grey;
-    margin-left: $base-margin/2;
-    padding-left: $base-padding/2;
+    // color: $color-grey;
+    font-size: $font-size-small;
+    border-left: 1px solid;
+    padding-left: $base-padding;
 }
 
 ul.no-style, ol.no-style {
