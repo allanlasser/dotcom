@@ -16,11 +16,8 @@ Dig into the effects to see how they’re calculated, and play with the calculat
 Find an answer yourself using the knowledge provided, or challenge the knowledge.
 I also really like how this illuminates a series of interlocking systems.
 Seeing the numbers all move around at once has a kind of parallax effect, with some sensitive values and other resistant values.
-
-Of course, this means the actual work being done isn’t in explaining the outcomes and their merits, but in understanding and clearly communicating the underlying system.
+This means the actual work being done isn’t in explaining the outcomes and their merits, but in understanding and clearly communicating the underlying system.
 Exposing the system, challenging the system, imagining a better implementation of the system.
 And the reporting doesn’t have to be flashy!
 With just a few numbers and sliders I have a better understanding of the problems and the solutions than all the think pieces or slideshows or video content you’d wanna throw at the problem.
-
 For me this piece was a healthy reminder and a strong motivation to keep challenging the assumptions under my work, to try to ask better questions about the problems I’m solving.
-I hope you can pull some inspiration from it as well.
