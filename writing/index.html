@@ -1,13 +1,24 @@
 ---
-title: Allan’s Writing
+title: Allan Lasser &bull; Writing
 ---
 {% include header.html %}
-    <ul class="no-style">
+
+<div class="writing page">
     {% for post in site.posts %}
-        <li class="post">
-        <div class="date">{{ post.date | date_to_long_string }}</div>
-        <div class="title"><a class="permalink" href="{{ site.url }}{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></div>
-    </li>
+    <article class="post">
+        <header>
+            <time class="date" datetime="{{post.date|date_to_xmlschema}}" title="{{post.date|date_to_rfc822}}">
+                {{ post.date | date_to_long_string }}
+            </time>
+            <h1 class="title">
+                <a href="{{ site.url }}{{ post.url }}" title="{{ post.title }}">
+                    {{ post.title }}
+                </a>
+            </h1>
+        </header>
+        {{ post.content }}
+    </article>
     {% endfor %}
 </div>
+
 {% include footer.html %}

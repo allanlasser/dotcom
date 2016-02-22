@@ -8,11 +8,8 @@ Originally written as SASS, then compiled to CSS.
 This stylesheet is liscensed CC-BY-SA.
 ----------------- */
 
-@import 'reset';
-
 @import 'variables';
 @import 'base';
+@import 'header';
+@import 'page';
 @import 'post';
-@import 'aside';
-
-@import 'bigfoot';

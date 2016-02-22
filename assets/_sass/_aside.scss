@@ -1,13 +1,13 @@
 .about {
     overflow-y: scroll;
     max-width: 100%;
-    font-family: $font-serif;
-    font-size: $font-size-small;
+    font-family: $serif;
+    font-size: $size-small;
     line-height: $line-height;
     color: $color-white;
     background: $color-black;
     .biography {
-        padding: $base-padding;
+        padding: $padding;
         h1, p { margin-bottom: 1em; }
         h1 { font-size: 1.5em; }
         p:last-child { margin-bottom: 0; }

@@ -1,67 +1,10 @@
 .post {
-    max-width: 40em;
-    margin: 0 auto;
-    padding: $base-padding $base-padding 0 $base-padding;
-
-    @media all and (min-width: $small-breakpoint) {
-        font-size: $font-size-medium;
-        line-height: $line-height;
-        &:first-child { padding-top: 20vh; }
-        &:last-child { padding-bottom: 20vh; }
-    }
-
-    h1 {
-        margin-bottom: 2em;
-        font-size: $font-size-large;
-    }
-
-    p {
-        @media all and (min-width: $small-breakpoint) {
-            margin-right: $base-margin;
-        }
-    }
-
-    img {
-        max-width: 100%;
-        border: 4px solid #FFF;
-    }
-
-    ul, ol {
-        padding-left: $base-padding;
-    }
-
-    & > * { margin-bottom: $base-margin; }
-    li { margin-bottom: $base-margin; }
-
-    figure {
-      margin-left: 0;
-      img {
-        margin: 0;
-      }
-      figcaption {
-        font-size: $font-size-small;
-        line-height: $line-height;
-        color: $color-grey;
-      }
-    }
-
+    max-width: 30em;
+    margin: 0 auto $spacing;
     .date {
-        display: block;
-        margin-bottom: .5em;
-        font-size: $font-size-small;
-        color: $color-grey;
+        font-size: $small;
     }
-
-    .permalink { text-decoration: none; }
-}
-
-li.post + li.post { padding-top: 0; }
-
-.dialog {
-    .call:before, .response:before {
-        content: "\2014";
-    }
-    .call {
-        font-style: italic;
+    img, iframe {
+        max-width: 100%;
     }
 }
