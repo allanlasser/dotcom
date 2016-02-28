@@ -1,6 +1,6 @@
 ---
 title: Cracking the Rift
-date: 2015-03-30 00:00:00
+date: 2015-03-30
 layout: essay
 tags: videogames technology
 image: presence.png

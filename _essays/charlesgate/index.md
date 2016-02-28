@@ -1,5 +1,6 @@
 ---
 title: Charlesgate
+date: 2012-05-01
 subtitle: A Palimpsest of Urban Planning
 layout: essay
 image: charlesgate.png

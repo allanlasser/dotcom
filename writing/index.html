@@ -1,38 +1,35 @@
 ---
-title: Allan Lasser &bull; Writing
+title: Allan Lasser / Writing
+layout: page
 ---
-{% include header.html %}
-
 <div class="writing page">
-    <h1>Writing</h1>
-    <h2>Essays</h2>
-    <ul class="essay collection nostyle-list">
-    {% for essay in site.essays %}
-        <li class="essay item">
-            <a href="{{site.url}}{{essay.url}}">
-                <h3 class="title">{{essay.title}}</h3>
-                {% if essay.image %}
-                <img class="thumbnail" src="{{site.images}}/essays/{{essay.image}}" id="presence">
-                {% endif %}
-            </a>
-        </li>
-    {% endfor %}
-    </ul>
-    <h2>Blog</h2>
-    {% for post in site.posts %}
-    <article class="blog">
-        <header>
-            <time class="date" datetime="{{post.date|date_to_xmlschema}}" title="{{post.date|date_to_rfc822}}">
-                {{ post.date | date_to_long_string }}
-            </time>
-            <h3 class="title">
-                <a href="{{ site.url }}{{ post.url }}" title="{{ post.title }}">
-                    {{ post.title }}
-                </a>
-            </h3>
-        </header>
-    </article>
-    {% endfor %}
+    <h1 class="full">Writing</h1>
+    <div class="column">
+        <h2><a href="essays">Essays</a></h2>
+        <ul class="essay collection nostyle-list">
+        {% for essay in site.essays reversed %}
+            <li class="essay item">
+                <time class="date" datetime="{{essay.date|date_to_xmlschema}}" title="{{essay.date|date_to_rfc822}}">
+                    {{essay.date|date:"%Y"}}
+                </time>
+                <h3 class="title"><a href="{{site.url}}{{essay.url}}" title="{{post.title}}">{{essay.title}}</a></h3>
+            </li>
+        {% endfor %}
+        </ul>
+    </div>
+    <div class="column">
+        <h2><a href="blog">Blog</a></h2>
+        <ul class="blog collection nostyle-list">
+        {% for post in site.posts %}
+            <li class="blog item">
+                <time class="date" datetime="{{post.date|date_to_xmlschema}}" title="{{post.date|date_to_rfc822}}">
+                    {{post.date|date:"%B %d, %Y"}}
+                </time>
+                <h3 class="title">
+                    <a href="{{site.url}}{{post.url}}" title="{{post.title}}">{{post.title}}</a>
+                </h3>
+            </li>
+        {% endfor %}
+        </ul>
+    </div>
 </div>
-
-{% include footer.html %}

@@ -1,5 +1,6 @@
 ---
 title: The Campus That Could Have Been
+date: 2012-04-30
 layout: essay
 image: bu-campus.png
 ---

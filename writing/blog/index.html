@@ -1,0 +1,19 @@
+---
+title: Allan Lasser / Blog
+layout: page
+---
+<div class="blog page">
+    <h1>Blog</h1>
+    <ul class="blog collection nostyle-list">
+    {% for post in site.posts %}
+        <li class="blog item">
+            <time class="date" datetime="{{post.date|date_to_xmlschema}}" title="{{post.date|date_to_rfc822}}">
+                {{post.date|date:"%B %d, %Y"}}
+            </time>
+            <h2 class="title">
+                <a href="{{site.url}}{{post.url}}" title="{{post.title}}">{{post.title}}</a>
+            </h2>
+        </li>
+    {% endfor %}
+    </ul>
+</div>

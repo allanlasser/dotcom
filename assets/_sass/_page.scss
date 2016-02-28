@@ -2,32 +2,44 @@
     padding: $spacing/2;
 }
 
-.essay.collection {
+.page h2 {
+    line-height: $line-height;
+}
+
+.date {
+    font-family: $sans-serif;
+    font-size: $small;
+    line-height: $line-height;
+}
+
+.writing.page {
     display: flex;
     flex-wrap: wrap;
+    .full {
+        flex: 0 1 100%;
+    }
+    .column {
+        flex: 1 1 20em;
+    }
+    .collection {
+        margin-right: 2*$spacing;
+    }
 }
 
 .essay.item {
-    flex: 1 0 20em;
-    background: red;
     font-family: $sans-serif;
-    &:nth-child(odd) {
-        // padding-right: $spacing;
+    a {
+        display: block;
+        color: $color-black;
+        text-decoration: none;
+        &:hover {
+            color: $color-accent;
+        }
     }
-}
-
-.essay.item a {
-    display: block;
-    color: $color-black;
-    text-decoration: none;
-    &:hover {
-        color: $color-accent;
+    img {
+        display: block;
+        max-width: 100%;
+        filter: grayscale(100%);
+        -webkit-filter: grayscale(100%);
     }
-}
-
-.essay.item img {
-    display: block;
-    max-width: 100%;
-    filter: grayscale(100%);
-    -webkit-filter: grayscale(100%);
 }

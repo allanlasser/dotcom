@@ -1,5 +1,6 @@
 ---
 title: Home of the Braves
+date: 2014-02-17
 layout: essay
 ---
 
