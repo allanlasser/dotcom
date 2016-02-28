@@ -1,6 +1,6 @@
 ---
 title: Everything is a Hack
-layout: writing
+layout: blog
 category: blog
 tags: design
 ---

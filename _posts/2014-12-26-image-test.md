@@ -1,6 +1,6 @@
 ---
 title: Image Test
-layout: writing
+layout: blog
 category: blog
 tags: simcity images
 ---

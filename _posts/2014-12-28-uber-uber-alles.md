@@ -1,6 +1,6 @@
 ---
 title: Uber über alles
-layout: writing
+layout: blog
 category: blog
 tags: uber reading
 ---

@@ -1,6 +1,6 @@
 ---
 title: Internet.org Is Not the Internet
-layout: writing
+layout: blog
 category: blog
 tags: web
 ---

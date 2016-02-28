@@ -1,6 +1,6 @@
 ---
 title: Hello Again, World
-layout: writing
+layout: blog
 category: blog
 tags: introduction resolution
 ---

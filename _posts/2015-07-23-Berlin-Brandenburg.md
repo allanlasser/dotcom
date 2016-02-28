@@ -1,6 +1,6 @@
 ---
 title: Berlin Brandenburg
-layout: writing
+layout: blog
 category: blog
 tags: photography
 ---

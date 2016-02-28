@@ -1,6 +1,6 @@
 ---
 title: Dependable
-layout: writing
+layout: blog
 category: blog
 tags: design
 ---

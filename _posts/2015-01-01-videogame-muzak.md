@@ -1,6 +1,6 @@
 ---
 title: Videogame muzak
-layout: writing
+layout: blog
 category: blog
 tags: videogames music
 ---

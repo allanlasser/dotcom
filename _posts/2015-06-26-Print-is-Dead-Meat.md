@@ -1,6 +1,6 @@
 ---
 title: Print is Dead Meat
-layout: writing
+layout: blog
 category: blog
 tags: publishing, print, web, design
 ---

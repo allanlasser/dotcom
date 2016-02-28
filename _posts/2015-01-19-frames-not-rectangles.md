@@ -1,6 +1,6 @@
 ---
 title: Frames, not rectangles
-layout: writing
+layout: blog
 category: blog
 tags: technology rant
 ---

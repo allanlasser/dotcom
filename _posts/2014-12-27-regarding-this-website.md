@@ -1,6 +1,6 @@
 ---
 title: Regarding This Website
-layout: writing
+layout: blog
 category: blog
 tags: web design meta
 ---

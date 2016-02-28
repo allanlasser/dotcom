@@ -1,6 +1,6 @@
 ---
 title: The Texas Towers
-layout: writing
+layout: blog
 category: blog
 tags: surveillance, radar, offshore, oil platform
 ---

@@ -1,6 +1,6 @@
 ---
 title: Model-driven reporting
-layout: writing
+layout: blog
 category: blog
 tags: web design reporting
 ---

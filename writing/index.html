@@ -4,19 +4,33 @@ title: Allan Lasser &bull; Writing
 {% include header.html %}
 
 <div class="writing page">
+    <h1>Writing</h1>
+    <h2>Essays</h2>
+    <ul class="essay collection nostyle-list">
+    {% for essay in site.essays %}
+        <li class="essay item">
+            <a href="{{site.url}}{{essay.url}}">
+                <h3 class="title">{{essay.title}}</h3>
+                {% if essay.image %}
+                <img class="thumbnail" src="{{site.images}}/essays/{{essay.image}}" id="presence">
+                {% endif %}
+            </a>
+        </li>
+    {% endfor %}
+    </ul>
+    <h2>Blog</h2>
     {% for post in site.posts %}
-    <article class="post">
+    <article class="blog">
         <header>
             <time class="date" datetime="{{post.date|date_to_xmlschema}}" title="{{post.date|date_to_rfc822}}">
                 {{ post.date | date_to_long_string }}
             </time>
-            <h1 class="title">
+            <h3 class="title">
                 <a href="{{ site.url }}{{ post.url }}" title="{{ post.title }}">
                     {{ post.title }}
                 </a>
-            </h1>
+            </h3>
         </header>
-        {{ post.content }}
     </article>
     {% endfor %}
 </div>

@@ -1,6 +1,6 @@
 ---
 title: Ultimate Power Couple
-layout: writing
+layout: blog
 category: blog
 tags: music, power couple
 ---

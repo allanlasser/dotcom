@@ -1,6 +1,6 @@
 ---
 title: Mature Web Design
-layout: writing
+layout: blog
 category: blog
 tags: muckrock, web, design
 ---

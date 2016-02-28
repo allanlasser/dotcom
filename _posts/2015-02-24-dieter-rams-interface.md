@@ -1,6 +1,6 @@
 ---
 title: Simple Interfaces
-layout: writing
+layout: blog
 category: blog
 tags: design
 ---

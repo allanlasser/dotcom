@@ -1,6 +1,6 @@
 ---
 title: What is a website?
-layout: writing
+layout: blog
 category: blog
 tags: web design
 ---

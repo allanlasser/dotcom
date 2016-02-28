@@ -1,6 +1,6 @@
 ---
 title: Inside Out
-layout: writing
+layout: blog
 category: blog
 tags: podcast
 ---

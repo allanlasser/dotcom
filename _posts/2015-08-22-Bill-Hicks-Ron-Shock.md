@@ -1,6 +1,6 @@
 ---
 title: Ron & Bill
-layout: writing
+layout: blog
 category: blog
 tags: comedy
 ---

@@ -1,3 +1,33 @@
 .page {
     padding: $spacing/2;
 }
+
+.essay.collection {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.essay.item {
+    flex: 1 0 20em;
+    background: red;
+    font-family: $sans-serif;
+    &:nth-child(odd) {
+        // padding-right: $spacing;
+    }
+}
+
+.essay.item a {
+    display: block;
+    color: $color-black;
+    text-decoration: none;
+    &:hover {
+        color: $color-accent;
+    }
+}
+
+.essay.item img {
+    display: block;
+    max-width: 100%;
+    filter: grayscale(100%);
+    -webkit-filter: grayscale(100%);
+}
