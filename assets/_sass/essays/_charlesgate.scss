@@ -1,0 +1,47 @@
+.charlesgate.essay {
+    .header {
+        padding: 2*$spacing;
+        text-align: center;
+    }
+    .title {
+        font-size: 3em;
+        line-height: $line-height;
+        font-weight: normal;
+    }
+    .subtitle, .subhead {
+        font-family: $sans-serif;
+        font-size: $large;
+        line-height: $line-height;
+        color: $color-grey;
+    }
+    .foreward {
+        max-width: 40em;
+        margin: 0 auto;
+        font-size: $small;
+        line-height: $line-height;
+    }
+    .quote p {
+        font-style: italic;
+    }
+    section {
+        max-width: 34em;
+        margin: $spacing auto;
+        header h2 {
+            margin-bottom: 0;
+        }
+    }
+
+    figure img {
+        margin-bottom: 0;
+    }
+    img {
+        max-width: 100%;
+    }
+}
+
+.charlesgate.essay figure {
+    margin: 2*$spacing 0;
+    img {
+        max-width: 100%;
+    }
+}

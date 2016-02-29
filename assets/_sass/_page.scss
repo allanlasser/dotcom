@@ -26,20 +26,11 @@
     }
 }
 
-.essay.item {
-    font-family: $sans-serif;
-    a {
-        display: block;
-        color: $color-black;
-        text-decoration: none;
-        &:hover {
-            color: $color-accent;
-        }
-    }
-    img {
-        display: block;
-        max-width: 100%;
-        filter: grayscale(100%);
-        -webkit-filter: grayscale(100%);
+.title a {
+    display: block;
+    color: $color-black;
+    text-decoration: none;
+    &:hover {
+        color: $color-accent;
     }
 }
