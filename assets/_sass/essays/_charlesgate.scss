@@ -8,6 +8,18 @@ hr {
     border: 1px solid;
 }
 
+figure {
+    img {
+        width: 100%;
+        height: auto;
+    }
+    figcaption {
+        max-width: 34rem;
+        margin: 0 auto;
+        text-align: left;
+    }
+}
+
 .charlesgate.essay .image-grid {
     display: flex;
     flex-wrap: wrap;
@@ -49,7 +61,7 @@ hr {
     .quote p {
         font-style: italic;
     }
-    p, blockquote, figcaption, section header, footer {
+    p, blockquote, section header, footer {
         max-width: 34rem;
         text-align: left;
         margin: $spacing auto;
