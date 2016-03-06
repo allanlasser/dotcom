@@ -1,0 +1,72 @@
+.essay {
+    h2, p, ul, ol, blockquote
+    {
+        max-width: 34rem;
+        text-align: left;
+        margin: 0 auto $spacing auto;
+    }
+    img
+    {
+        max-width: 100%;
+        text-align: center;
+    }
+    .header
+    {
+        padding: 2*$spacing;
+        text-align: center;
+        p
+        {
+            text-align: center;
+        }
+    }
+    .title
+    {
+        font-size: 3em;
+        line-height: $line-height;
+        font-weight: normal;
+    }
+    .subtitle, .subhead
+    {
+        text-align: center;
+        font-family: $sans-serif;
+        font-size: $large;
+        line-height: $line-height;
+        color: $color-grey;
+    }
+    .foreword
+    {
+        margin: 0 auto $spacing;
+        font-size: $small;
+        font-style: italic;
+        line-height: $line-height;
+    }
+    .bibliography
+    {
+        list-style: none;
+        padding-left: $spacing;
+        text-indent: -1 * $spacing;
+    }
+}
+
+.charlesgate.essay {
+    h2 {
+        margin-bottom: 0;
+        text-align: center;
+    }
+    .subhead {
+        margin: 0 auto;
+    }
+    #section-footer {
+        margin-top: 4*$spacing;
+    }
+    .image-grid {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        figure {
+            flex: 1 1 50%;
+            margin: 0;
+            padding: $spacing/2;
+        }
+    }
+}
