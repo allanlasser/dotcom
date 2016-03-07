@@ -3,5 +3,85 @@ title: Allan Lasser
 ---
 {% include header.html %}
 <div class="home page">
+    <div class="biography">
+        <img width="300px" src="{{site.images}}/pixel-portrait.png" alt="A pixellated portrait of myself" title="This is the avatar that I use pretty much everywhere.">
+        <h1>I am a designer and developer living in Boston, MA.</h1>
+        <p>
+            I currently work full-time at <a href="https://www.muckrock.com/">MuckRock</a>.<br>
+            I am also a co-founder of <a href="http://worb.co">Worb Co.</a><br>
+            I write about history, technology, architecture, and design.
+        </p>
+        <ul class="social-media inline-list">
+            <li><a href="mailto:lasser.allan@gmail.com">Email</a></li>
+            <li><a href="https://www.twitter.com/allanlasser">Twitter</a></li>
+            <li><a href="https://www.github.com/allanlasser">GitHub</a></li>
+            <li><a href="https://www.flickr.com/allanlasser">Flickr</a></li>
+            <li><a href="https://www.instagram.com/lasser.allan">Instagram</a></li>
+            <li><a href="https://open.spotify.com/user/12160488186">Spotify</a></li>
+        </ul>
+    </div>
+    <!--
+    <div class="work column">
+        <header>
+            <h2><a href="work">Work</a></h2>
+            <p>Front-end web design and development.</p>
+        </header>
+        <ul class="nostyle-list">
+        {% for project in site.projects reversed %}
+            <li>
+                <p class="date">{{project.startDate}} &ndash; {% if project.endDate %}{{project.endDate}}{% else %}Present{% endif %}</p>
+                <h3><a href="{{site.url}}{{project.url}}">{{project.name}}</a></h3>
+            </li>
+        {% endfor %}
+        </ul>
+    </div>
+    -->
+    <div class="essays column">
+        <header>
+            <h2><a href="writing/essays">Essays</a></h2>
+            <p>Long form, researched writing.</p>
+        </header>
+        <ul class="essay collection nostyle-list">
+        {% for essay in site.essays reversed %}
+            <li class="essay item">
+                <time class="date" datetime="{{essay.date|date_to_xmlschema}}" title="{{essay.date|date_to_rfc822}}">
+                    {{essay.date|date:"%Y"}}
+                </time>
+                <h3><a href="{{site.url}}{{essay.url}}" title="{{post.title}}">{{essay.title}}</a></h3>
+            </li>
+        {% endfor %}
+        </ul>
+    </div>
+    <div class="blog column">
+        <header>
+            <h2><a href="writing/blog">Blog</a></h2>
+            <p>Thoughts, photos, and sketches.</p>
+        </header>
+        <ul class="blog collection nostyle-list">
+        {% for post in site.posts %}
+            <li class="blog item">
+                <time class="date" datetime="{{post.date|date_to_xmlschema}}" title="{{post.date|date_to_rfc822}}">
+                    {{post.date|date:"%B %d, %Y"}}
+                </time>
+                <h3><a href="{{site.url}}{{post.url}}" title="{{post.title}}">{{post.title}}</a></h3>
+            </li>
+        {% endfor %}
+        </ul>
+    </div>
+    <div class="column">
+        <header>
+            <h2>Reading</h2>
+            <p>Notes and highlights from articles and books.</p>
+        </header>
+        <ul class="nostyle-list">
+        {% for highlight in site.highlights reversed %}
+            <li class="highlight">
+                <h3><a href="{{site.url}}{{highlight.url}}">{{highlight.title}}</a></h3>
+                <p class="author">by {{highlight.author}}</p>
+            </li>
+        {% endfor %}
+        </ul>
+    </div>
+</div>
 </div>
 {% include footer.html %}

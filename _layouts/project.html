@@ -1,0 +1,10 @@
+{% include header.html %}
+<article class="project page">
+    <header class="header">
+        <img src="{{page.logo}}">
+	    <h1 class="title">{{page.name}}</h1>
+	    <p class="subtitle">{{page.startDate}} &ndash; {% if page.endDate %}{{page.endDate}}{% else %}Present{% endif %}</p>
+	</header>
+    {{ content }}
+</article>
+{% include footer.html %}

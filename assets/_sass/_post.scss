@@ -1,6 +1,7 @@
 .post {
-    max-width: 30em;
+    max-width: 34rem;
     margin: 0 auto $spacing;
+    padding: $spacing/2;
     .date {
         font-size: $small;
     }

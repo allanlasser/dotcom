@@ -1,6 +1,6 @@
 ---
 title: Home of the Braves
-subtitle: The sports legacy of Boston University's West Campus.
+subtitle: The sports legacy of Boston University’s West Campus
 date: 2014-02-17
 layout: essay
 ---

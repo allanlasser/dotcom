@@ -1,10 +1,16 @@
 ---
 title: Cracking the Rift
+subtitle: What the future of virtual reality means for the future of social media
 date: 2015-03-30
 layout: essay
 tags: videogames technology
 image: presence.png
 ---
+
+<figure>
+  <img id="crackingopentherift" src="oculus1.jpeg" alt="Cracking open the Rift" title="The ocular element of the Rift, exposed during a teardown" />
+  <figcaption>Cracking open the Rift. Image via <a href="https://www.ifixit.com/Guide/Image/meta/wMGJ2mABdvWtSKDB">Sam Lionheart</a> for <a href="https://www.ifixit.com/Teardown/Oculus+Rift+Development+Kit+2+Teardown/27613">ifixit</a>. Reproduced under <a href="http://creativecommons.org/licenses/by-nc-sa/3.0">Creative Commons BY-NC-SA</a>.</figcaption>
+</figure>
 
 In March 2014, [Facebook acquired Oculus](https://www.facebook.com/zuck/posts/10101319050523971) for $2 billion (with a b!) dollars.
 If you’ve been paying any attention to gaming over the last two years, then you’ll know about the Oculus Rift.
@@ -14,11 +20,6 @@ Facebook isn't a video game company, why would it want a VR headset?
 Well, both companies share a common vision: to deeply immerse us in digital worlds we can only experience from a distance today.
 They both want to create _presence_, or the feeling that you’re the actually inhabiting a rendered world.
 By understanding the Rift as a video game interface, we can get a better sense for its role as an interface to social media.
-
-<figure>
-  <img id="crackingopentherift" src="oculus1.jpeg" alt="Cracking open the Rift" title="The ocular element of the Rift, exposed during a teardown" />
-  <figcaption>Cracking open the Rift. Image via <a href="https://www.ifixit.com/Guide/Image/meta/wMGJ2mABdvWtSKDB">Sam Lionheart</a> for <a href="https://www.ifixit.com/Teardown/Oculus+Rift+Development+Kit+2+Teardown/27613">ifixit</a>. Reproduced under <a href="http://creativecommons.org/licenses/by-nc-sa/3.0">Creative Commons BY-NC-SA</a>.</figcaption>
-</figure>
 
 Players have always been engaged in, but slightly removed from, the games they play.
 Picture a game world.
@@ -50,11 +51,6 @@ Presence signals that VR has made the necessary leap forward from research proje
 Once VR matures we'll probably look back on today's VR as a low-res hack.
 We're headed towards strong presence, [which is the stuff of science fiction](https://en.m.wikipedia.org/wiki/Rainbows_End).
 But just that we can create it at all is remarkable.
-
-<figure>
-    <img id="adeveloperwearingthecurrentiterationoftheoculusrift." src="Oculus4.jpg" alt="A developer wearing the current iteration of the Oculus Rift." title="Worn Rift" />
-    <figcaption>The most recent Rift, which is still in development. Image via <a href="https://twitter.com/oculus/status/571770120336384001">@oculus</a>. Reproduced under fair use.</figcaption>
-</figure>
 
 The Rift is so valuable to Facebook because it creates presence.
 Facebook isn't a game world, but it is bound by many of the same rules.

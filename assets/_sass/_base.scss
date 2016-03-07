@@ -37,6 +37,7 @@ a:hover, a:active {
 
 h1, h2, h3, h4, h5, h6 {
     font-family: $sans-serif;
+    line-height: $line-height;
     a {
         color: $color-black;
         text-decoration: none;
@@ -86,6 +87,21 @@ figure {
         line-height: $line-height;
         text-align: left;
     }
+}
+
+.title
+{
+    font-size: 3em;
+    line-height: $line-height;
+    font-weight: normal;
+}
+
+.subtitle, .subhead
+{
+    font-family: $sans-serif;
+    font-size: $large;
+    font-weight: 300;
+    line-height: $line-height;
 }
 
 .reversefootnote {

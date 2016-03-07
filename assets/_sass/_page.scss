@@ -1,4 +1,6 @@
 .page {
+    max-width: 34rem;
+    margin: 0 auto $spacing;
     padding: $spacing/2;
 }
 
@@ -6,13 +8,52 @@
     line-height: $line-height;
 }
 
+.heading {
+    border-top: 1px solid;
+    border-bottom: 1px dotted;
+}
+
 .date {
+    margin-bottom: 0;
     font-family: $sans-serif;
     font-size: $small;
     line-height: $line-height;
 }
 
+.home.page {
+    font-family: $sans-serif;
+    .column {
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        padding-top: $spacing/2;
+        border-top: 1px solid;
+        header, ul {
+            flex: 1 1 16em;
+            padding-right: $spacing;
+        }
+    }
+    .biography {
+        margin: 0 auto;
+        padding-bottom: $spacing;
+        text-align: center;
+        img {
+            width: 260px;
+        }
+        .social-media {
+            font-family: $sans-serif;
+            li a {
+                padding: 0 $spacing 0 0;
+                @media screen and (max-width: 34rem) {
+                    padding: 0 $spacing/2 0 0;
+                }
+            }
+        }
+    }
+}
+
 .writing.page {
+    max-width: 100%;
     display: flex;
     flex-wrap: wrap;
     .full {
@@ -23,6 +64,12 @@
     }
     .collection {
         margin-right: 2*$spacing;
+    }
+}
+
+.essay.page {
+    .subhead {
+        text-align: left;
     }
 }
 
