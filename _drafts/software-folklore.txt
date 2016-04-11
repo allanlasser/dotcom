@@ -1,0 +1,14 @@
+---
+title: Software folklore
+date: 2016-03-07T09:30:37
+---
+
+I was reminded from the _New York Times'_ article "[Tips and Myths About Extending Smartphone Battery Life][nyt]" about the way that some people will swipe up to close every "open" application on their phones.
+I put open in quotes because, well, they aren't open.
+As the article explains, "While that may be true on a computer, smartphones are designed differently: Once an app is no longer in the foreground — meaning you are not actively using it — most or all of its processes are frozen."
+Closing them might actually be worse for battery life, since the app needs to completely reboot after being opened again.
+
+The article doesn't say how the myth started, though.
+I wonder about things like this.
+
+[nyt]: http://www.nytimes.com/2016/02/25/technology/personaltech/tips-and-myths-about-extending-smartphone-battery-life.html?smprod=nytnow

@@ -68,8 +68,12 @@
 }
 
 .essay.page {
+    max-width: 100%;
     .subhead {
         text-align: left;
+    }
+    &.list {
+        max-width: 34rem;
     }
 }
 
