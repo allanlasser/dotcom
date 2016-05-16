@@ -24,8 +24,8 @@
     font-family: $sans-serif;
     .column {
         width: 100%;
-        display: flex;
-        flex-wrap: wrap;
+        @include flexbox;
+        @include flex-wrap(wrap);
         padding-top: $spacing/2;
         border-top: 2px solid;
         header, ul {
@@ -69,18 +69,18 @@
     @media(min-width:60rem){
         font-size: 16px;
         line-height: $line-height;
-        display: flex;
-        align-items: flex-start;
+        @include flexbox;
+        @include align-items(flex-start);
         max-width: 100%;
         .column {
-            flex: 1 1 20em;
+            @include flex(1 1 20em);
             margin-right: $spacing;
             &:last-child {
                 margin-right: 0;
             }
         }
         .biography {
-            flex: 1 1 25em;
+            @include flex(1 1 25em);
             margin-right: $spacing;
             text-align: left;
         }
@@ -89,13 +89,13 @@
 
 .writing.page {
     max-width: 100%;
-    display: flex;
-    flex-wrap: wrap;
+    @include flexbox;
+    @include flex-wrap(wrap);
     .full {
-        flex: 0 1 100%;
+        @include flex(0 1 100%);
     }
     .column {
-        flex: 1 1 20em;
+        @include flex(1 1 20em);
     }
     .collection {
         margin-right: 2*$spacing;
