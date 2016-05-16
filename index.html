@@ -5,7 +5,7 @@ title: Allan Lasser
 <div class="home page">
     <div class="biography">
         <img width="300px" src="{{site.images}}/pixel-portrait.png" alt="A pixellated portrait of myself" title="This is the avatar that I use pretty much everywhere.">
-        <h1>I am a designer and developer living in Boston, MA.</h1>
+        <h1>I make websites for a living.</h1>
         <p>
             I currently work full-time at <a href="https://www.muckrock.com/">MuckRock</a>.<br>
             I am also a co-founder of <a href="http://worb.co">Worb Co.</a><br>
@@ -47,7 +47,7 @@ title: Allan Lasser
                 <time class="date" datetime="{{essay.date|date_to_xmlschema}}" title="{{essay.date|date_to_rfc822}}">
                     {{essay.date|date:"%Y"}}
                 </time>
-                <h3><a href="{{site.url}}{{essay.url}}" title="{{post.title}}">{{essay.title}}</a></h3>
+                <p><strong><a href="{{site.url}}{{essay.url}}" title="{{post.title}}">{{essay.title}}</a></strong></p>
             </li>
         {% endfor %}
         </ul>
@@ -63,20 +63,20 @@ title: Allan Lasser
                 <time class="date" datetime="{{post.date|date_to_xmlschema}}" title="{{post.date|date_to_rfc822}}">
                     {{post.date|date:"%B %d, %Y"}}
                 </time>
-                <h3><a href="{{site.url}}{{post.url}}" title="{{post.title}}">{{post.title}}</a></h3>
+                <p><strong><a href="{{site.url}}{{post.url}}" title="{{post.title}}">{{post.title}}</a></strong></p>
             </li>
         {% endfor %}
         </ul>
     </div>
-    <div class="column">
+    <div class="reading column">
         <header>
-            <h2>Reading</h2>
+            <h2><a href="reading/">Reading</a></h2>
             <p>Notes and highlights from articles and books.</p>
         </header>
         <ul class="nostyle-list">
         {% for highlight in site.highlights reversed %}
-            <li class="highlight">
-                <h3><a href="{{site.url}}{{highlight.url}}">{{highlight.title}}</a></h3>
+            <li class="highlight item">
+                <p><strong><a href="{{site.url}}{{highlight.url}}">{{highlight.title}}</a></strong></p>
                 <p class="author">by {{highlight.author}}</p>
             </li>
         {% endfor %}
