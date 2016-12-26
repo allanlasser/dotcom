@@ -3,8 +3,8 @@ title: Home of the Braves
 subtitle: The sports legacy of Boston University’s West Campus
 date: 2014-02-17
 layout: essay
+image: postcard.jpg
 ---
-![A postcard illustration of braves field.](/assets/images/essays/postcard.jpg)
 
 West Campus is where the jocks live. That's something every BU student knows, freshman included. West hosts the Case Gym, FitRec, Agganis Arena, Nickerson Field, New Balance Field, and the Track and Tennis Center. Eating in the West dining hall means trying to find a chair that isn't taken up by somebody's lacross gear. There's even a statue to Harry Agganis, our "golden greek" and local sportshero. But West Campus's athletic culture runs much deeper than that--it is built on the foundations of one of baseball's legendary stadiums: Braves Field. Our West Campus is only the topmost layer of Boston's athletic history.
 

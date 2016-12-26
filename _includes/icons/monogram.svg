@@ -1,0 +1,5 @@
+<svg width="16px" height="16px" class="{{include.class | 'icon'}}" viewBox="0 0 16 16">
+    <title>Monogram</title>
+    <desc>The graphic monogram for Allan Lasser.</desc>
+    <path d="M4,4 L8,12 L12,12 L8,4 L4,4 Z M10,8 L12,12 L16,12 L14,8 L10,8 Z M6,8 L4,12 L0,12 L2,8 L6,8 Z"></path>
+</svg>

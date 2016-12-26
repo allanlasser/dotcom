@@ -1,0 +1,77 @@
+.serif {
+  font-family: $serif;
+}
+
+.sans-serif {
+  font-family: $sans-serif;
+}
+
+.bold, .b, .strong {
+  font-weight: bold;
+}
+
+.italic, .i, .em {
+  font-style: italic;
+}
+
+.small {
+  font-size: .875em;
+}
+
+.large {
+  font-size: 1.125em;
+}
+
+.inline {
+  list-style: none;
+  padding-left: 0;
+  li {
+    display: inline-block;
+    margin-bottom: 0;
+    margin-right: 1rem;
+    &:last-child {
+      margin-right: 0;
+    }
+  }
+}
+
+.textbox {
+  // Let it breathe!
+  line-height: 1.125 * $line-height;
+  p {
+    margin-bottom: 1.125 * $spacing;
+  }
+}
+
+.nounderline {
+  text-decoration: none;
+}
+
+.nostyle {
+  list-style: none;
+  padding-left: 0;
+}
+
+.title {
+  font-size: 3em;
+  line-height: $line-height;
+  font-weight: normal;
+}
+
+.subtitle, .subhead {
+  font-size: $large;
+  line-height: $line-height;
+}
+
+.reversefootnote {
+  font-family: $sans-serif;
+  font-size: $small;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.reverse-indent {
+    list-style: none;
+    padding-left: $spacing;
+    text-indent: -1 * $spacing;
+}

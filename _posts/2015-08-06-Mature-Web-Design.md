@@ -1,7 +1,5 @@
 ---
 title: Mature Web Design
-layout: blog
-category: blog
 tags: muckrock, web, design
 ---
 I've pushed a bunch of user interface upgrades to [MuckRock](https://www.muckrock.com/) in the past few weeks.

@@ -1,7 +1,5 @@
 ---
 title: Frames, not rectangles
-layout: blog
-category: blog
 tags: technology rant
 ---
 
@@ -10,7 +8,7 @@ Computers are not [glowing rectangles][brichter].
 When we think otherwise, we forget that computers are reprogrammable.
 Computers are intended to be flexible.
 They are engineered to allow for maximum flexibility.
-Another phrase for a poorly-conceived computer architecture is a "brittle" architecture. 
+Another phrase for a poorly-conceived computer architecture is a "brittle" architecture.
 
 Frank Chimero (of course), in his essay [_What Screens Want_][chimero], articulates this idea better than I can.
 He writes, "increasingly, technology feels like something that happens to you instead of something you use."

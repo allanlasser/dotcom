@@ -1,7 +1,5 @@
 ---
 title: Dependable
-layout: blog
-category: blog
 tags: design
 ---
 

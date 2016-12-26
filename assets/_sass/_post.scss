@@ -1,5 +1,5 @@
 .post {
-    max-width: 34rem;
+    max-width: $max-width;
     margin: 0 auto $spacing;
     padding: $spacing/2;
     .date {

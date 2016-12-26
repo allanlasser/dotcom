@@ -1,0 +1,10 @@
+---
+title: Journal
+subtitle: Thoughts, photos, and sketches.
+layout: collection
+---
+<ul class="nostyle nounderline">
+{% for post in site.posts %}
+    <li>{% include post.html %}</li>
+{% endfor %}
+</ul>

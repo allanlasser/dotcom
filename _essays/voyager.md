@@ -1,12 +1,8 @@
 ---
 title: Voyager
-layout: blog
-category: blog
+layout: essay
 date: 2016-04-14
----
-
-_I originally published this as a [newsletter](http://us2.campaign-archive2.com/?u=74862d74361490eca930f4384&amp;id=f788e417cd&amp;e=004cf03a2e) for my MuckRock project, [Hunting for Government's Oldest Computer](https://www.muckrock.com/project/hunting-for-governments-oldest-computer-32/). [Subscribe!](http://muckrock.us2.list-manage1.com/subscribe?u=74862d74361490eca930f4384&amp;id=56df7ccb2a)_
-
+tags: technology space
 ---
 
 The Voyager mission began in 1977 with the launches of Voyager 1 and Voyager 2.

@@ -1,7 +1,5 @@
 ---
 title: Simple Interfaces
-layout: blog
-category: blog
 tags: design
 ---
 I've been working with the [React framework](http://facebook.github.io/react/index.html) recently.

@@ -1,0 +1,36 @@
+.biography {
+  margin: 2*$spacing 0;
+  @include justify-content(center);
+  text-align: center;
+  .biography-image {
+    order: 0;
+    image-rendering: -moz-crisp-edges;          /* Firefox */
+    image-rendering: -webkit-optimize-contrast; /* webkit */
+    image-rendering: -o-crisp-edges;            /* Opera */
+    -ms-interpolation-mode: nearest-neighbor;   /* IE (non-standard property) */
+    image-rendering: crisp-edges;
+    image-rendering: pixelated;
+  }
+  .biography-text {
+    max-width: 20em;
+  }
+  @media (min-width: 630px) {
+    font-size: .9em;
+    @include justify-content(flex-start);
+    text-align: left;
+    .biography-image {
+      @include flex(1 1 10em);
+      order: 1;
+    }
+    .biography-text {
+      @include flex(2 1 12em);
+      max-width: none;
+      .element {
+        max-width: 20em;
+      }
+    }
+  }
+  @media (min-width: 930) {
+    font-size: 1em;
+  }
+}

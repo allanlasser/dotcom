@@ -1,7 +1,5 @@
 ---
 title: Everything is a Hack
-layout: blog
-category: blog
 tags: design
 ---
 

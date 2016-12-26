@@ -1,7 +1,5 @@
 ---
 title: Berlin Brandenburg
-layout: blog
-category: blog
 tags: photography
 ---
 
@@ -18,4 +16,3 @@ I'm going to start paying closer attention to their work.
 ![View of the airport gates]({{ site.images }}/berlin-airport/berlin-airport-2.jpg)
 
 [businessweek]: http://www.bloomberg.com/news/features/2015-07-23/how-berlin-s-futuristic-airport-became-a-6-billion-embarrassment
-

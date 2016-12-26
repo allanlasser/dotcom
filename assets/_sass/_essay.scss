@@ -1,42 +1,13 @@
 .essay {
     h2, p, ul, ol, blockquote
     {
-        max-width: 34rem;
-        text-align: left;
+        max-width: $max-width;
         margin: 0 auto $spacing auto;
     }
     img
     {
         max-width: 100%;
         text-align: center;
-    }
-    .header
-    {
-        max-width: 34rem;
-        margin: 0 auto;
-        padding: 2*$spacing 0;
-        text-align: center;
-        p
-        {
-            max-width: 24rem;
-            text-align: center;
-        }
-    }
-    .subtitle, .subhead {
-        text-align: center;
-    }
-    .foreword
-    {
-        margin: 0 auto $spacing;
-        font-size: $small;
-        font-style: italic;
-        line-height: $line-height;
-    }
-    .bibliography
-    {
-        list-style: none;
-        padding-left: $spacing;
-        text-indent: -1 * $spacing;
     }
 }
 

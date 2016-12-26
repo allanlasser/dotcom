@@ -2,11 +2,8 @@
 title: The Campus That Could Have Been
 date: 2012-04-30
 layout: essay
+image: model.png
 ---
-
-![A scale model of the planned Charles River Campus at BU.](/assets/images/essays/model.png)
-
-<p class="foreword">Originally published on <a href="http://buquad.com/?p=37806">The Quad</a>.</p>
 
 A ghost haunts central campus. The copper-plated specter hangs above the doorways to the School of Theology and the College of Arts and Sciences. Recalling the ambitions of a young university, this phantom tower is the key to a campus that could have been.
 

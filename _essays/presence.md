@@ -7,11 +7,6 @@ tags: videogames technology
 image: presence.png
 ---
 
-<figure>
-  <img id="crackingopentherift" src="/assets/images/essays/oculus1.jpeg" alt="Cracking open the Rift" title="The ocular element of the Rift, exposed during a teardown" />
-  <figcaption>Cracking open the Rift. Image via <a href="https://www.ifixit.com/Guide/Image/meta/wMGJ2mABdvWtSKDB">Sam Lionheart</a> for <a href="https://www.ifixit.com/Teardown/Oculus+Rift+Development+Kit+2+Teardown/27613">ifixit</a>. Reproduced under <a href="http://creativecommons.org/licenses/by-nc-sa/3.0">Creative Commons BY-NC-SA</a>.</figcaption>
-</figure>
-
 In March 2014, [Facebook acquired Oculus](https://www.facebook.com/zuck/posts/10101319050523971) for $2 billion (with a b!) dollars.
 If you’ve been paying any attention to gaming over the last two years, then you’ll know about the Oculus Rift.
 [Oculus](http://www.oculusvr.com/) is developing [the Rift](https://www.oculus.com/dk2/), a virtual reality headset.

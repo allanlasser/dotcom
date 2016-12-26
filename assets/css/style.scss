@@ -8,11 +8,13 @@ Originally written as SASS, then compiled to CSS.
 This stylesheet is liscensed CC-BY-SA.
 ----------------- */
 
-@import 'variables';
+@import 'reset';
 @import 'flex';
+@import 'variables';
 @import 'base';
-@import 'header';
-@import 'page';
+@import 'color';
+@import 'typography';
+@import 'layout';
 @import 'post';
 @import 'essay';
-@import 'highlight';
+@import 'pages/homepage';

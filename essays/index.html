@@ -1,0 +1,10 @@
+---
+title: Essays
+subtitle: Writing on systems and histories.
+layout: collection
+---
+<ul class="nostyle nounderline">
+{% for essay in site.essays reversed %}
+    <li>{% include essay.html %}</li>
+{% endfor %}
+</ul>

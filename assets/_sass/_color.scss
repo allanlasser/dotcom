@@ -1,0 +1,29 @@
+.black {
+  color: $color-black;
+  svg path {
+    fill: $color-black;
+  }
+}
+
+.grey, .gray {
+  color: $color-grey;
+  fill: $color-grey;
+}
+
+.white {
+  color: $color-white;
+  svg path {
+    fill: $color-white;
+  }
+}
+
+.accent {
+  color: $color-accent;
+  svg path {
+    fill: $color-accent;
+  }
+}
+
+.black-bg {
+  background: $color-black;
+}

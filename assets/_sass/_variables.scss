@@ -1,12 +1,14 @@
+$max-width: 36rem;
+$spacing: 1.125rem;
+$line-height: 1.575em;
+
 $color-black: #262626;
 $color-grey: #555555;
 $color-white: #FAFAFA;
 $color-accent: #0a7ffb;
-
-$spacing: 1.4rem;
-$line-height: 1.4em;
+$color-accent-dark: darken($color-accent, 15%);
 
 $serif: "Iowan Old Style", "Georgia", serif;
 $sans-serif: -apple-system, BlinkMacSystemFont, "Roboto", "Droid Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
-$small: 0.8em;
-$large: 1.2em;
+$small: 0.875em;
+$large: 1.125em;

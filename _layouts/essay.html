@@ -1,11 +1,18 @@
 {% include header.html %}
 <article class="{{page.class}} essay page" id="{{page.title}}">
-	<header class="header">
-	    <h1 class="title">{{page.title}}</h1>
-	    {% if page.subtitle %}
-	    <p class="subtitle">{{page.subtitle}}</p>
-	    {% endif %}
+	<header class="mb center">
+		<div class="element">
+		    <h1 class="title">{{page.title}}</h1>
+		    {% if page.subtitle %}
+		    <p class="subtitle sans-serif">{{page.subtitle}}</p>
+		    {% endif %}
+		</div>
+		{% if page.image %}
+		<img src="{{site.images}}/essays/{{page.image}}" class="block width-100" />
+		{% endif %}
 	</header>
-	{{ content }}
+	<main class="textbox element">
+		{{ content }}
+	</main>
 </article>
 {% include footer.html %}

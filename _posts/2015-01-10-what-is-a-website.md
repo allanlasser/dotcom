@@ -1,7 +1,5 @@
 ---
 title: What is a website?
-layout: blog
-category: blog
 tags: web design
 ---
 * A website must be bold and declarative.

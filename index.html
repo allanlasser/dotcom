@@ -1,87 +1,31 @@
 ---
-title: Allan Lasser
+layout: page
 ---
-{% include header.html %}
-<div class="home page">
-    <div class="biography">
-        <img width="300px" src="{{site.images}}/pixel-portrait.png" alt="A pixellated portrait of myself" title="This is the avatar that I use pretty much everywhere.">
-        <h1>I make websites for a living.</h1>
-        <p>
-            I currently work full-time at <a href="https://www.muckrock.com/">MuckRock</a>.<br>
-            I am also a co-founder of <a href="http://worb.co">Worb Co.</a><br>
-            I write about history, technology, architecture, and design.
-        </p>
-        <ul class="social-media inline-list">
-            <li><a href="mailto:lasser.allan@gmail.com">Email</a></li>
-            <li><a href="https://www.twitter.com/allanlasser">Twitter</a></li>
-            <li><a href="https://www.github.com/allanlasser">GitHub</a></li>
-            <li><a href="https://www.flickr.com/allanlasser">Flickr</a></li>
-            <li><a href="https://www.instagram.com/lasser.allan">Instagram</a></li>
-            <li><a href="https://open.spotify.com/user/12160488186">Spotify</a></li>
-        </ul>
-    </div>
-    <!--
-    <div class="work column">
-        <header>
-            <h2><a href="work">Work</a></h2>
-            <p>Front-end web design and development.</p>
-        </header>
-        <ul class="nostyle-list">
-        {% for project in site.projects reversed %}
-            <li>
-                <p class="date">{{project.startDate}} &ndash; {% if project.endDate %}{{project.endDate}}{% else %}Present{% endif %}</p>
-                <h3><a href="{{site.url}}{{project.url}}">{{project.name}}</a></h3>
-            </li>
-        {% endfor %}
-        </ul>
-    </div>
-    -->
-    <div class="essays column">
-        <header>
-            <h2><a href="writing/essays">Essays</a></h2>
-            <p>Long form, researched writing.</p>
-        </header>
-        <ul class="essay collection nostyle-list">
-        {% for essay in site.essays reversed %}
-            <li class="essay item">
-                <time class="date" datetime="{{essay.date|date_to_xmlschema}}" title="{{essay.date|date_to_rfc822}}">
-                    {{essay.date|date:"%Y"}}
-                </time>
-                <p><strong><a href="{{site.url}}{{essay.url}}" title="{{post.title}}">{{essay.title}}</a></strong></p>
-            </li>
-        {% endfor %}
-        </ul>
-    </div>
-    <div class="blog column">
-        <header>
-            <h2><a href="writing/blog">Blog</a></h2>
-            <p>Thoughts, photos, and sketches.</p>
-        </header>
-        <ul class="blog collection nostyle-list">
-        {% for post in site.posts %}
-            <li class="blog item">
-                <time class="date" datetime="{{post.date|date_to_xmlschema}}" title="{{post.date|date_to_rfc822}}">
-                    {{post.date|date:"%B %d, %Y"}}
-                </time>
-                <p><strong><a href="{{site.url}}{{post.url}}" title="{{post.title}}">{{post.title}}</a></strong></p>
-            </li>
-        {% endfor %}
-        </ul>
-    </div>
-    <div class="reading column">
-        <header>
-            <h2><a href="reading/">Reading</a></h2>
-            <p>Notes and highlights from articles and books.</p>
-        </header>
-        <ul class="nostyle-list">
-        {% for highlight in site.highlights reversed %}
-            <li class="highlight item">
-                <p><strong><a href="{{site.url}}{{highlight.url}}">{{highlight.title}}</a></strong></p>
-                <p class="author">by {{highlight.author}}</p>
-            </li>
-        {% endfor %}
-        </ul>
-    </div>
+<div>
+    <header class="flexbox flex-wrap justify-between width-100 biography">
+        <div class="biography-image">
+            <img class="element block width-100" src="{{site.images}}/pixel-portrait.png" alt="A pixellated portrait of myself" title="This is the avatar that I use pretty much everywhere." />
+        </div>
+        <div class="biography-text">
+            <p class="h1 element">I believe the web can<br/>be a beautiful place.</p>
+            <p class="element">I want to help people use their computers to do better, more often, with less.</p>
+            <ul class="small inline element">
+                <li><a href="mailto:{{site.email}}">Email</a></li>
+                <li><a href="{{site.social.twitter}}">Twitter</a></li>
+                <li><a href="{{site.social.pinboard}}">Pinboard</a></li>
+                <li><a href="{{site.social.github}}">GitHub</a></li>
+                <li><a href="{{site.social.flickr}}">Flickr</a></li>
+                <li><a href="{{site.social.instagram}}">Instagram</a></li>
+                <li><a href="{{site.social.spotify}}">Spotify</a></li>
+            </ul>
+        </div>
+    </header>
+    <main>
+        <div class="textbox element">
+            <p>Currently, I am a co-founder of <a href="https://www.massivesci.com/">Massive</a>, a science media company, where I am trying to make science an everyday practice. We are exploring beyond the accepted norms of online publishing, away from virality and pageviews, and looking for a more iterative and agile way to tell meaningful, memorable, and informative stories about the science being done today.</p>
+            <p>Between 2014 and 2016, I was the designer and developer at <a  href="https://www.muckrock.com/">MuckRock</a>, where I helped ordinary people make sense of public records. In addition to a top-to-bottom redesign of the platform, I designed and developed many new interfaces, experiences, and features which helped the platform to grow its revenue, userbase, and reputation.</p>
+            <p>In 2014, I graduated from <a href="http://bu.edu/">Boston University</a> with a degree in Computer Science and another degree in American Studies. In 2012, I wrote <a  href="{{site.essays.charlesgate.url}}">my American Studies thesis</a> on the urban growth of a small area of Boston, which I was invited to present at the 2013 Eastern American Studies Association Conference. It was subsequently published in <a href="https://journals.psu.edu/ne/issue/view/2861">the introductory issue of New Errands</a>, a journal of undergraduate research.</p>
+            <p>While at <abbr title="Boston University">B.U.</abbr> I joined and later became publisher of <a class="i" href="http://buquad.com">The Quad</a>, an independent student magazine. It was at <i>The Quad</i> where I cut my teeth on Wordpress, making some of my first web designs while learning about <a href="https://abookapart.com/products/responsive-web-design">responsive design</a>, <a href="https://abookapart.com/products/on-web-typography">browser typography</a>, and <a href="http://shapeofdesignbook.com/">how design happens</a>.</p>
+        </div>
+    </main>
 </div>
-</div>
-{% include footer.html %}

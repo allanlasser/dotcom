@@ -1,0 +1,10 @@
+---
+title: Projects
+subtitle: Web applications and publications.
+layout: collection
+---
+<ul class="nostyle nounderline">
+{% for project in site.projects reversed %}
+    <li>{% include project.html %}</li>
+{% endfor %}
+</ul>
