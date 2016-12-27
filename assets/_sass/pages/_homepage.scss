@@ -1,8 +1,8 @@
 .biography {
-  margin: 2*$spacing 0;
   @include justify-content(center);
   text-align: center;
   .biography-image {
+    opacity: .9;
     order: 0;
     image-rendering: -moz-crisp-edges;          /* Firefox */
     image-rendering: -webkit-optimize-contrast; /* webkit */
