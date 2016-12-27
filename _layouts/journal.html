@@ -1,11 +1,11 @@
 {% include header.html %}
-<article class="post page">
-    <header>
-        <time class="date" datetime="{{page.date|date_to_xmlschema}}" title="{{page.date|date_to_rfc822}}">
-            {{page.date|date:"%B %d, %Y"}}
-        </time>
-        <h1>{{ page.title }}</h1>
+<article>
+    <header class="flexbox align-baseline justify-between">
+        <h1 class="element">{{ page.title }}</h1>
+        <p class="element"><time class="small grey" datetime="{{page.date|date_to_xmlschema}}" title="{{page.date|date_to_rfc822}}">{{page.date|date:"%B %d, %Y"}}</time></p>
     </header>
-	{{ content }}
+    <main class="textbox element">
+	    {{ content }}
+    </main>
 </article>
 {% include footer.html %}

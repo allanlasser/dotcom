@@ -1,8 +1,9 @@
 ---
-name: MuckRock
-logo: logo.png
+title: MuckRock
+logo: muckrock_logo.png
+external_url: "https://www.muckrock.com/"
 startDate: August 2014
-endDate:
+endDate: November 2016
 date: 2014-08-01
 ---
 

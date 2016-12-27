@@ -1,10 +1,16 @@
 {% include header.html %}
 <article class="project page">
-    <header class="header">
-        <img src="{{page.logo}}">
-	    <h1 class="title">{{page.name}}</h1>
-	    <p class="subtitle">{{page.startDate}} &ndash; {% if page.endDate %}{{page.endDate}}{% else %}Present{% endif %}</p>
+    <header class="center element">
+        {% if page.logo %}<img src="{{site.images}}/projects/{{page.logo}}">{% endif %}
+        {% if page.external_url %}
+        <h1 class="title"><a href="{{page.external_url}}">{{page.title}}</a></h1>
+        {% else %}
+        <h1 class="title">{{page.title}}</h1>
+        {% endif %}
+	    <p class="sans-serif grey">{{page.startDate}} &ndash; {% if page.endDate %}{{page.endDate}}{% else %}Present{% endif %}</p>
 	</header>
-    {{ content }}
+    <main class="textbox element">
+        {{ content }}
+    </main>
 </article>
 {% include footer.html %}
