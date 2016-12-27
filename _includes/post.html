@@ -1,4 +1,9 @@
-<div class="flexbox align-baseline">
-    <p class="h3 element"><a href="{{site.url}}{{post.url}}" title="{{post.title}}">{{post.title}}</a></p>
-    <p class="element"><time class="small grey" datetime="{{post.date|date_to_xmlschema}}" title="{{post.date|date_to_rfc822}}">{{post.date|date:"%B %d, %Y"}}</time></p>
-</div>
+<article>
+    <header class="flexbox align-baseline justify-between">
+        <h1 class="element"><a href="{{post.url}}">{{ post.title }}</a></h1>
+        <p class="element"><time class="small grey" datetime="{{post.date|date_to_xmlschema}}" title="{{post.date|date_to_rfc822}}">{{post.date|date:"%B %d, %Y"}}</time></p>
+    </header>
+    <main class="textbox element">
+	    {{ post.content }}
+    </main>
+</article>

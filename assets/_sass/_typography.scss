@@ -108,7 +108,7 @@ figure {
   img {
     max-width: 100%;
     height: auto;
-    margin-bottom: 0;
+    margin-bottom: $spacing;
   }
 
   figcaption {
@@ -160,13 +160,14 @@ figure {
 
 .textbox {
   // Let it breathe!
+  $textbox-spacing: 1.125 * $spacing;
   line-height: 1.125 * $line-height;
   p {
-    margin-bottom: 1.125 * $spacing;
+    margin-bottom: $textbox-spacing;
   }
   img {
     display: block;
-    margin: 0 auto;
+    margin: $textbox-spacing auto;
   }
 }
 
