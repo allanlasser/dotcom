@@ -3,8 +3,12 @@ title: Journal
 subtitle: Thoughts, photos, and sketches.
 layout: collection
 ---
+{% for post in site.posts limit:1 %}
+{% include post_detail.html %}
+{% endfor %}
+<h1 class="element">Previous Entries</h1>
 <ul class="nostyle nounderline">
-{% for post in site.posts %}
+{% for post in site.posts offset:1 %}
     <li>{% include post.html %}</li>
 {% endfor %}
 </ul>

@@ -8,4 +8,12 @@
 	    {{ content }}
     </main>
 </article>
+<h1 class="element">Other Entries</h1>
+<ul class="nostyle nounderline">
+{% for post in site.posts %}
+    {% if post != page %}
+    <li>{% include post.html %}</li>
+    {% endif %}
+{% endfor %}
+</ul>
 {% include footer.html %}
