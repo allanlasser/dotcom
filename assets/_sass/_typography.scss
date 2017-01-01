@@ -158,6 +158,11 @@ figure {
   }
 }
 
+.footnotes {
+  font-size: $small;
+  font-family: $sans-serif;
+}
+
 .textbox {
   // Let it breathe!
   $textbox-spacing: 1.125 * $spacing;
