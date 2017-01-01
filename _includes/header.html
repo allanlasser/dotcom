@@ -5,8 +5,9 @@
         <meta charset="utf-8" />
         <meta name="description" content="{{ site.description }}" />
         <meta name="author" content="{{ site.author }}" />
-        <meta name="copyright" content="{{ site.copyright.url }}" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="license" title="{{ site.copyright.license }}" href="{{ site.copyright.url }}" />
+        <link rel="alternate" title="Journal Feed" href="{{site.url}}/feed.xml" />
         <link rel="stylesheet" media="screen, projector" href="{{ site.url }}/assets/css/style.css" />
         <link rel="stylesheet" media="print" href="{{ site.url }}/assets/css/print.css" />
         <link rel="shortcut icon" href="{{site.url}}/assets/favicon.ico" />
@@ -18,7 +19,6 @@
     <body lang="en" class="serif container">
         <header class="justify-between bold">
             <p class="element"><a class="nounderline black" href="{{ site.url }}" title="Homepage">
-                <!-- {% include icons/monogram-round.svg class='black monogram icon' %} -->
                 Allan Lasser
             </a></p>
             <ul class="inline small element">
