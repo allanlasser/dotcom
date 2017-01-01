@@ -1,5 +1,10 @@
-        <footer class="container center grey small">
-            <p class="element">Licensed <a rel="license" class="grey" href="{{site.copyright.url}}">{{site.copyright.license}}</a></p>
+        <footer class="flexbox flex-wrap justify-between grey x-small extra-vertical-space">
+            <p class="element">Copyright &copy; 2014 &ndash; {{ site.time | date: "%Y" }} {{site.author}}</p>
+            <ul class="element inline">
+                <li><a rel="alternate" href="/feed.xml" title="Journal Atom Feed">RSS</a></li>
+                <li><a href="mailto:{{site.email}}">allan@allanlasser.com</a></li>
+                <li><a href="{{site.social.twitter}}">@allanlasser</a></li>
+            </ul>
         </footer>
     </body>
 </html>
