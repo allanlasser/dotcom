@@ -67,6 +67,7 @@ img {
 }
 
 ul, ol {
+  margin-bottom: $spacing;
   padding-left: $spacing;
 }
 
@@ -95,6 +96,29 @@ abbr {
   font-variant: small-caps;
   font-feature-settings: "smcp" 1;
   cursor: help;
+}
+
+code {
+  font-family: $monospace;
+  font-size: $small;
+  background: darken($color-white, 10%);
+  margin: 0 $spacing/8;
+  padding: $spacing/12 $spacing/8;
+  border-radius: 2px;
+}
+
+pre {
+  overflow: scroll;
+  margin-bottom: $spacing;
+  padding: $spacing/4 $spacing/2;
+  border-radius: 4px;
+  background: $color-black;
+  code {
+    margin: 0;
+    padding: 0;
+    background: none;
+    color: $color-white;
+  }
 }
 
 figure {
@@ -138,15 +162,15 @@ figure {
 }
 
 .x-small {
-  font-size: .625em;
+  font-size: $x-small;
 }
 
 .small {
-  font-size: .875em;
+  font-size: $small;
 }
 
 .large {
-  font-size: 1.125em;
+  font-size: $large;
 }
 
 .inline {
