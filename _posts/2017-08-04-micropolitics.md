@@ -1,0 +1,20 @@
+---
+title: I had a thought that was longer than a tweet and I decided to actually develop it, hooray for me
+date: 2017-08-04 09:54:50 -0500
+tags: facebook, web, computers, The Information
+---
+I'm in the middle of reading James Gleick's [*The Information*](http://www.nytimes.com/2011/03/20/books/review/book-review-the-information-by-james-gleick.html) (which I'm loving, thanks for asking!), and while reading the other day I was really struck by this observation he makes while talking about the history of dictionaries:
+
+> Like the printing press, the telegraph, and the telephone before it, the Internet is transforming the language simply by transmitting information differently. What makes cyberspace different from all previous information technologies is its intermixing of scales from the largest to the smallest without prejudice, broadcasting to the millions, narrowcasting to groups, instant messaging one to one.[^1]
+
+In this context, Gleick is talking about the explosion of words making up the English language, and how that explosion was catalyzed by the degree of connections facilitated by each medium. And yes, this observation isn't that startling, but I was delighted how he uses it to explain why the growth of the English dictionary fit a mostly linear curve until the invention of the Internet, when it began to grow exponentially—it all comes down to the intermixing of scales.
+
+And then, just now, [I came across this tweet](https://twitter.com/Pinboard/status/890568929248260096) by [@pinboard](https://twitter.com/pinboard):
+
+> there is no way to hold campaigns or candidates accountable when you can say a thousand different things to micro-targeted voters
+
+Which totally clicked with that last thought. Extrapolating from Gleick, language is just _one_ example of the ways the Internet is transforming our entire society and culture "simply by transmitting information differently." The ability for politicians to ditch broad policies and platforms in place of microtargeting—inspired by the way the Internet has already changed the business of marketing to and targeting consumers—has been and will be a difficult aspect of a political campaign to reason about and be held accountable for. And it seems to me like the mechanisms we currently have for "holding campaigns or candidates accountable"—namely, broadcast media—is totally incompatible with a world where they're talking on an individual basis, because those means of fact checking assume they can can reach _everyone at once_ when they really need to reach everyone individually (and in a way that isn't obnoxious!). The scales just aren't compatible at all and so there's this unresolvable tension between the ways campaigns are talking to voters and the ways we as a voters talk to one another.
+
+Now I'm wondering whether there's a precedence for technologically-driven transformations in a language presaging similar transformations in society and culture. I remember Ethan Zuckerman [at one point writing how](http://www.ethanzuckerman.com/blog/2016/02/26/ben-franklin-the-post-office-and-the-digital-public-sphere/), "in many ways, the Federalist and Republican parties emerged from networks of newspapers that shared ideologically consonant information – rather than a party press, the parties actually emerged from the press." Perhaps the increasing partisanship, normalization of conspiracy thinking, and micro-targeting of voters can all be attributed to the intermixing of scales of communication that the Internet has brought about. If it can, maybe we can start to figure out ways to constructively hold multi-scalar discussions in ways that are constructive, similar to how the newspapers captured and nurtured discussion a century ago.
+
+[^1]: I think that the equal transformation of the word "phone" itself, from a person-to-person communication device to a general internet communication device, also reflects the way that scales of communication have multiplied and intermixed now.
