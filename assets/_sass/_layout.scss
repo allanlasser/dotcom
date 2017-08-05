@@ -1,3 +1,17 @@
+body {
+  /* This makes sure the footer reaches the bottom of the page even when the page is short. */
+  min-height: 100vh;
+  @include flexbox;
+  @include flex-flow(column nowrap);
+  @include justify-content(space-between);
+  & > * {
+    @include flex(1 1 auto);
+  }
+  & > header, & > footer {
+    @include flex(0 0 auto);
+  }
+}
+
 .element, .container {
   padding: $spacing/2;
 }
@@ -11,12 +25,38 @@
   margin-bottom: $spacing;
 }
 
+.mb0 {
+  margin-bottom: 0;
+}
+
+.bb {
+  border-bottom: 1px solid;
+}
+
+.bb--thick {
+  border-bottom-width: 2px;
+}
+
+.bb--grey {
+  border-bottom-color: $color-grey;
+}
+
 .block {
   display: block;
 }
 
 .center {
   text-align: center;
+}
+
+.sticky {
+  position: sticky;
+  &--top {
+    top: 0;
+  }
+  &--bottom {
+    bottom: 0;
+  }
 }
 
 .width-100 {
@@ -50,12 +90,21 @@
   @include align-items(baseline);
 }
 
+.align-end {
+  @include flexbox;
+  @include align-items(flex-end);
+}
+
 .flex-100 {
   @include flex(0 1 100%);
 }
 
 .flex-auto {
   @include flex(1 1 auto);
+}
+
+.flex-0 {
+  @include flex(0 0 auto);
 }
 
 .monogram {

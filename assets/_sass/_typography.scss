@@ -15,7 +15,7 @@ i, em {
 }
 
 a {
-  color: $color-black;
+  color: $color-accent;
   opacity: 1;
 }
 
@@ -173,6 +173,14 @@ figure {
   font-size: $large;
 }
 
+.uppercase {
+  text-transform: uppercase;
+}
+
+.extra-letter-spacing {
+  letter-spacing: 2px;
+}
+
 .inline {
   list-style: none;
   padding-left: 0;
@@ -214,9 +222,8 @@ figure {
 }
 
 .title {
-  font-size: 3em;
-  line-height: $line-height;
-  font-weight: normal;
+  font-size: 2em;
+  line-height: 1.25em;
 }
 
 .subtitle, .subhead {

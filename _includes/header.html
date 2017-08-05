@@ -1,7 +1,7 @@
 <!doctype html>
 <html>
     <head>
-        <title>{% if page.title %}{{ page.title | append: " &#9728; " }}{% endif %}Allan Lasser</title>
+        <title>{% if page.title %}{{ page.title | append: " &#9728; " }}{% endif %}{{ site.title }}</title>
         <meta charset="utf-8" />
         <meta name="description" content="{{ site.description }}" />
         <meta name="author" content="{{ site.author }}" />
@@ -16,13 +16,11 @@
         <![endif]-->
     </head>
     <body lang="en" class="serif container">
-        <header class="justify-between bold">
-            <p class="element"><a class="nounderline black" href="{{ site.url }}" title="Homepage">
-                Allan Lasser
-            </a></p>
-            <ul class="inline small element">
-                <li><a class="nounderline" href="/projects" title="What I Make">Projects</a></li>
-                <li><a class="nounderline" href="/essays" title="What I Write">Essays</a></li>
-                <li><a class="nounderline" href="/journal" title="What I Think">Journal</a></li>
+        <header class="sticky sticky--top container justify-between mb bb bb--thick">
+            <p><a href="{{ site.url }}" title="Homepage">{{ site.title }}</a></p>
+            <ul class="inline small mb0">
+                <li><a href="/projects" title="What I Make">Projects</a></li>
+                <li><a href="/essays" title="What I Write">Essays</a></li>
+                <li><a href="/journal" title="What I Think">Journal</a></li>
             </ul>
         </header>
